@@ -170,7 +170,7 @@
                     <div class="scrollbar-sidebar">
                         <div class="app-sidebar__inner">
                             <ul class="vertical-nav-menu">
-                                
+
                             </ul>
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">
@@ -860,7 +860,7 @@
                                                 <div class="stat"><b>13</b>% decrease</div>
                                             </div>
                                         </div>
-                                      
+
                                         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
                                             <div class="card orange">
                                                 <div class="title">Under Shipping Orders</div>
@@ -1189,7 +1189,7 @@
                                                                 </td>
                                                             </tr>
 
-                                                         
+
 
                                                         </tbody>
                                                     </table>
@@ -1197,35 +1197,35 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>                      
-
-
-                            </div>
-                        </div>
-
-
-
-                                                    </div>
-
-
-
-                                    <div class="app-wrapper-footer">
-                                        <div class="app-footer">
-                                            <div class="app-footer__inner text-center">
-                                                <p class="m-0">Copyright © 2024 eShopedge All Rights
-                                                    Reserved.</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
 
+
                             </div>
                         </div>
 
-                        <!-- dashboard js  -->
 
-                        <script type="text/javascript" src="js/dashboard.js"></script>
-                        <script src="js/jquery.js"></script>
+
+                    </div>
+
+
+
+                    <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner text-center">
+                                <p class="m-0">Copyright © 2024 eShopedge All Rights
+                                    Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- dashboard js  -->
+
+        <script type="text/javascript" src="js/dashboard.js"></script>
+        <script src="js/jquery.js"></script>
     </form>
 
 
@@ -1247,7 +1247,19 @@
             }
         });
 
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(e) {
+    if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+    }
+});
+
     </script>
+
+
 
 </body>
 

@@ -4,6 +4,9 @@
     --tertiary: #000;
 }
 
+*{
+    user-select: none;
+}
 
 .toggle-button {
     padding: 10px 20px;
